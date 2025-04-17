@@ -1,0 +1,102 @@
+Node.js (nodejs.html):
+Services:
+RESTful API Development  https://www.flaticon.com/free-icon/development_9750216?term=development&page=1&position=12&origin=search&related_id=9750216
+Real-time Applications https://www.flaticon.com/free-icon/real-time-strategy_12959337?term=real-time&page=1&position=13&origin=search&related_id=12959337
+Microservices Architecture https://www.flaticon.com/free-icon/microservice_7067795?term=microservices&page=1&position=18&origin=search&related_id=7067795
+Full-stack JavaScript Solutions https://www.flaticon.com/free-icon/full-stack_5432927?term=full-stack&page=1&position=42&origin=search&related_id=5432927
+Database Integration https://www.flaticon.com/free-icon/data-processing_8439120?term=database+integration&page=1&position=2&origin=search&related_id=8439120
+Node.js Maintenance & Support https://www.flaticon.com/free-icon/optimize_2344698?term=maintenance&page=1&position=20&origin=search&related_id=2344698
+
+Benefits:
+High Performance https://www.flaticon.com/free-icon/high-speed_9735759?term=high+performance&page=1&position=4&origin=search&related_id=9735759
+Full-Stack JavaScript https://www.flaticon.com/free-icon/java-script_721791?term=javascript&page=1&position=2&origin=search&related_id=721791
+Excellent Scalability https://www.flaticon.com/free-icon/scalability_18146448?term=scalability&page=1&position=24&origin=search&related_id=18146448
+Rich Ecosystem https://www.flaticon.com/free-icon/ecosystem_2942621?term=ecosystem&page=1&position=2&origin=search&related_id=2942621
+Real-time Excellence https://www.flaticon.com/free-icon/real-time-strategy_12959337?term=real-time&page=1&position=13&origin=search&related_id=12959337
+Rapid Development https://www.flaticon.com/free-icon/rapid_11855708?term=rapid&page=1&position=1&origin=search&related_id=11855708
+
+PHP (php.html):
+Services:
+Laravel Development  https://www.flaticon.com/free-icon/php_4828814?term=php&page=1&position=8&origin=search&related_id=4828814
+Custom Web Applications https://www.flaticon.com/free-icon/development_9750216?term=development&page=1&position=12&origin=search&related_id=9750216
+API Development https://www.flaticon.com/free-icon/web-development_9784585?term=api&page=1&position=3&origin=search&related_id=9784585
+E-commerce Solutions https://www.flaticon.com/free-icon/purchase_5678588?term=e-commerce&page=1&position=13&origin=search&related_id=5678588
+CMS Development https://www.flaticon.com/free-icon/website-creator_9340099?term=cms+development&page=1&position=2&origin=search&related_id=9340099
+Legacy Code Migration https://www.flaticon.com/free-icon/data-migration_14746660?term=migration&page=1&position=12&origin=search&related_id=14746660
+
+Benefits:
+Cost-Effective https://www.flaticon.com/free-icon/return-on-investment_3749976?term=cost-effective&page=1&position=12&origin=search&related_id=3749976
+Rapid Development https://www.flaticon.com/free-icon/rapid_11855708?term=rapid&page=1&position=1&origin=search&related_id=11855708
+Database Flexibility https://www.flaticon.com/free-icon/data_4391155?term=database+flexibility&page=1&position=1&origin=search&related_id=4391155
+Wide Compatibility https://www.flaticon.com/free-icon/compatibility_11245748?term=compatibility&page=1&position=41&origin=search&related_id=11245748
+Proven Scalability https://www.flaticon.com/free-icon/fast_4776050?term=scalability&page=1&position=37&origin=search&related_id=4776050
+Strong Community https://www.flaticon.com/free-icon/epidemiology_9819551?term=community&page=1&position=16&origin=search&related_id=9819551
+
+Java (java.html):
+Services:
+Enterprise Applications https://www.flaticon.com/free-icon/digital-transformation_4959972?term=enterprise&page=1&position=8&origin=search&related_id=4959972
+Microservices Architecture https://www.flaticon.com/free-icon/microservices_12465328?term=microservices&page=1&position=10&origin=search&related_id=12465328
+API Development https://www.flaticon.com/free-icon/microservice_7067795?term=microservices&page=1&position=18&origin=search&related_id=7067795
+Database Solutions https://www.flaticon.com/free-icon/storage-solutions_15355698?term=database+solutions&page=1&position=3&origin=search&related_id=15355698
+Cloud-Native Development https://www.flaticon.com/free-icon/server_2318786?term=cloud&page=1&position=3&origin=search&related_id=2318786
+Legacy System Modernization https://www.flaticon.com/free-icon/technology_4365231?term=modernization&page=1&position=5&origin=search&related_id=4365231
+
+Benefits:
+Platform Independence https://www.flaticon.com/free-icon/platform_6291325?term=platform&page=1&position=4&origin=search&related_id=6291325 
+Enhanced Security https://www.flaticon.com/free-icon/reliability_15570034?term=enhanced+security&page=1&position=7&origin=search&related_id=15570034
+Robust & Reliable https://www.flaticon.com/free-icon/robust_9679859?term=robust&related_id=9679859
+High Scalability https://www.flaticon.com/free-icon/cloud_12249532?term=scalability&page=1&position=24&origin=search&related_id=12249532
+Rich Ecosystem https://www.flaticon.com/free-icon/ecosystem_2942621?term=ecosystem&page=1&position=2&origin=search&related_id=2942621
+Optimized Performance https://www.flaticon.com/free-icon/performance_9751137?term=optimized+performance&page=1&position=10&origin=search&related_id=9751137
+
+Flutter (flutter.html):
+Services:
+Cross-Platform Applications https://www.flaticon.com/free-icon/cross-platform_9872460?term=cross-platform&page=1&position=4&origin=search&related_id=9872460
+Custom UI/UX Design https://www.flaticon.com/free-icon/ui_7859071?term=uiux&page=1&position=5&origin=search&related_id=7859071
+Firebase Integration https://www.flaticon.com/free-icon/data-integration_8637240?term=integration&page=1&position=10&origin=search&related_id=8637240
+Advanced State Management https://www.flaticon.com/free-icon/government_6920311?term=state+management&page=1&position=1&origin=search&related_id=6920311
+Web & Desktop Applications https://www.flaticon.com/free-icon/app-development_8004045?term=web+app&page=1&position=12&origin=search&related_id=8004045
+Maintenance & Upgrades https://www.flaticon.com/free-icon/optimize_2344698?term=maintenance&page=1&position=20&origin=search&related_id=2344698
+
+Benefits:
+Single Codebase https://www.flaticon.com/free-icon/binary_1822940?term=code&page=1&position=6&origin=search&related_id=1822940
+Beautiful UI https://www.flaticon.com/free-icon/ui_1260111?term=ui&page=1&position=9&origin=search&related_id=1260111
+Native Performance https://www.flaticon.com/free-icon/native-advertising_8909388?term=native&page=1&position=13&origin=search&related_id=8909388
+Fast Development https://www.flaticon.com/free-icon/fast-time_4285398?term=fast&page=1&position=7&origin=search&related_id=4285398
+Cost Effectiveness https://www.flaticon.com/free-icon/profit_12841754?term=cost+effective&page=1&position=10&origin=search&related_id=12841754
+Google Backed https://www.flaticon.com/free-icon/search_281747?term=google&page=1&position=6&origin=search&related_id=281747
+
+WordPress (wordpress.html):
+Services:
+Custom Theme Development https://www.flaticon.com/free-icon/development_9750216?term=development&page=1&position=12&origin=search&related_id=9750216
+Custom Plugin Development https://www.flaticon.com/free-icon/web-plugin_2684625?term=plugin&page=1&position=1&origin=search&related_id=2684625
+WooCommerce Solutions https://www.flaticon.com/free-icon/online_3007250?term=commerce&page=1&position=1&origin=search&related_id=3007250
+Performance Optimization https://www.flaticon.com/free-icon/benchmarking_18141102?term=performance&page=1&position=2&origin=search&related_id=18141102
+Security Implementation https://www.flaticon.com/free-icon/cyber-security_1797588?term=security&page=1&position=3&origin=search&related_id=1797588
+Maintenance & Support https://www.flaticon.com/free-icon/rpa_5316870?term=maintenance&page=1&position=5&origin=search&related_id=5316870
+
+Benefits:
+User-Friendly CMS https://www.flaticon.com/free-icon/cms_2956548?term=cms&page=1&position=1&origin=search&related_id=2956548
+Unmatched Flexibility  https://www.flaticon.com/free-icon/flexibility_9665763?term=flexibility&page=1&position=1&origin=search&related_id=9665763
+SEO-Friendly https://www.flaticon.com/free-icon/seo_3494271?term=seo&page=1&position=2&origin=search&related_id=3494271
+Scalable Solutions https://www.flaticon.com/free-icon/scalability_4838773?term=scalable&page=1&position=19&origin=search&related_id=4838773
+Strong Community https://www.flaticon.com/free-icon/network_2622199?term=community&page=1&position=9&origin=search&related_id=2622199
+Cost-Effective https://www.flaticon.com/free-icon/profit_1322818?term=cost-effective&page=1&position=3&origin=search&related_id=1322818
+
+Vue.js (vuejs.html):
+Services:
+Custom Vue.js Applications https://www.flaticon.com/free-icon/development_9750216?term=development&page=1&position=12&origin=search&related_id=9750216
+Nuxt.js Development https://www.flaticon.com/free-icon/developing_2973702?term=development&page=1&position=18&origin=search&related_id=2973702
+Vue UI Development https://www.flaticon.com/free-icon/web-design_13191289?term=ui&page=1&position=1&origin=search&related_id=13191289
+Vue Migration & Upgrade https://www.flaticon.com/free-icon/data_3051927?term=migration&page=1&position=7&origin=search&related_id=3051927
+Vue & API Integration https://www.flaticon.com/free-icon/integration_12268277?term=api+integration&page=1&position=6&origin=search&related_id=12268277
+Vue.js Maintenance & Support  https://www.flaticon.com/free-icon/mechanic_11133669?term=maintenance&page=1&position=10&origin=search&related_id=11133669
+
+Benefits:
+Lightweight Performance https://www.flaticon.com/free-icon/lightweight_18783331?term=lightweight+tech&page=1&position=1&origin=search&related_id=18783331
+Progressive Framework https://www.flaticon.com/free-icon/gears_7187174?term=progressive&page=1&position=4&origin=search&related_id=7187174
+Developer-Friendly https://www.flaticon.com/free-icon/statistics_1844723?term=developer+friendly&page=1&position=23&origin=search&related_id=1844723
+Rich Ecosystem  https://www.flaticon.com/free-icon/ecosystem_2942621?term=ecosystem&page=1&position=2&origin=search&related_id=2942621
+
+Versatile Architecture https://www.flaticon.com/free-icon/flexibility_17314355?term=versatile&page=1&position=7&origin=search&related_id=17314355
+Business Benefits https://www.flaticon.com/free-icon/incentive_4115705?term=business+benefit&page=1&position=1&origin=search&related_id=4115705
