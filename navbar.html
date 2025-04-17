@@ -1,0 +1,271 @@
+<!-- Navbar Section -->
+<nav class="navbar">
+    <div class="logo">
+        <img id="navbar-logo" src="../images/logo kutumbinfo13.png" alt="Kutumbinfo Logo" onclick="handleHomeClick()">
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <div class="nav-links">
+        <a href="#" class="no-arrow" onclick="handleWhyKutumbinfoClick()">Why KutumbInfo?</a>
+        <div class="dropdown">
+            <a href="#">Services</a>
+            <div class="dropdown-content">
+                <div class="dropdown-box" onclick="handleWebDevelopmentClick()">
+                    <img src="../images/icons/web-development-icon.png" alt="Web Development Icon">
+                    <div>
+                        <strong>Web Development</strong>
+                        <p>High-quality web solutions tailored to your business needs.</p>
+                    </div>
+                </div>
+                
+                <div class="dropdown-box" onclick="handleMobileAppDevClick()">
+                    <img src="../images/icons/mobile-app-icon.png" alt="Mobile Application Icon">
+                    <div>
+                        <strong>Mobile Application Development</strong>
+                        <p>Robust mobile apps for iOS and Android platforms.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown-box" onclick="handleCustomSoftDevClick()">
+                    <img src="../images/icons/software-development-icon.png" alt="Custom Software Icon">
+                    <div>
+                        <strong>Custom Software Development</strong>
+                        <p>Tailored software to streamline your operations.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown-box" onclick="handleUIUXDesignClick()">
+                    <img src="../images/icons/ux.png" alt="UI/UX Design Icon">
+                    <div>
+                        <strong>UI/UX Design & Development</strong>
+                        <p>Engaging and intuitive designs for a seamless user experience.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown-box" onclick="handleAPIdevClick()">
+                    <img src="../images/icons/api-development-icon.png" alt="API Development Icon">
+                    <div>
+                        <strong>API Development</strong>
+                        <p>Secure and scalable APIs for your applications.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown-box" onclick="handleMaintainanceSupportClick()">
+                    <img src="../images/icons/maintenance-nav-icon.png" alt="Maintenance & Support Icon">
+                    <div>
+                        <strong>Maintenance & Support</strong>
+                        <p>Reliable support to keep your systems running smoothly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#">Expertise</a>
+            <div class="dropdown-content">
+                <div class="dropdown-box" onclick="goToAngular()">
+                    <img src="../images/icons/angularjs.png" alt="Angular Icon">
+                    <div>
+                        <strong>Angular Development</strong>
+                        <p>Dynamic web applications using Angular framework.</p>
+                    </div>
+                </div>
+                <div class="dropdown-box" onclick="goToReact()">
+                    <img src="../images/icons/react.png" alt="React Icon">
+                    <div>
+                        <strong>React Development</strong>
+                        <p>High-performance web apps using React.</p>
+                    </div>
+                </div>
+                <div class="dropdown-box" onclick="goToVuejs()">
+                    <img src="../images/icons/vuejs.png" alt="Vue.js Icon">
+                    <div>
+                        <strong>Vue.js Development</strong>
+                        <p>Versatile and lightweight web apps using Vue.js.</p>
+                    </div>
+                </div>
+                <div class="dropdown-box" onclick="goToWordpress()">
+                    <img src="../images/icons/wordpress-logo.png" alt="WordPress Icon">
+                    <div>
+                        <strong>WordPress Development</strong>
+                        <p>Customizable websites built on WordPress.</p>
+                    </div>
+                </div>
+                <div class="dropdown-box" onclick="goToFlutter()">
+                    <img src="../images/icons/flutter-100.png" alt="Flutter Icon">
+                    <div>
+                        <strong>Flutter Development</strong>
+                        <p>Cross-platform mobile apps with Flutter.</p>
+                    </div>
+                </div>
+                <div class="dropdown-box" onclick="goToJava()">
+                    <img src="../images/icons/java.png" alt="Java Icon">
+                    <div>
+                        <strong>Java Development</strong>
+                        <p>Enterprise-grade applications using Java.</p>
+                    </div>
+                </div>
+                <div class="dropdown-box" onclick="goToNodejs()">
+                    <img src="../images/icons/nodejs.png" alt="Node.js Icon">
+                    <div>
+                        <strong>Node.js Development</strong>
+                        <p>Scalable backend solutions using Node.js.</p>
+                    </div>
+                </div>
+                <div class="dropdown-box" onclick="goToPhp()">
+                    <img src="../images/icons/php.png" alt="PHP Icon">
+                    <div>
+                        <strong>PHP Development</strong>
+                        <p>Dynamic websites and applications using PHP.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Products</a>
+            <div class="dropdown-content">
+                <div class="dropdown-box dropdown-box-width" onclick="goToNonFintech()">
+                    <img src="../images/icons/non-fintech.png" alt="Non-Fintech Products Icon">
+                    <div>
+                        <strong>Non-Fintech Products:</strong>
+                        <ul>
+                            <li>Rental Solution (PCT)</li>
+                            <li>School Management</li>
+                            <li>Borwell Management System</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown-box dropdown-box-width" onclick="goToFintech()">
+                    <img src="../images/icons/fintech.png" alt="Fintech Products Icon">
+                    <div>
+                        <strong>Fintech Products:</strong>
+                        <ul>
+                            <li>KYCPLUS</li>
+                            <li>Information System WPS</li>
+                            <li>RPACPC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Associate Venture</a>
+            <div class="dropdown-content">
+                <div class="dropdown-box hover-block" onclick="window.open('https://azlogics.com/', '_blank');">
+                    <img src="../images/azlogic.png" alt="Azlogics Icon">
+                    <div>
+                        <strong>Azlogics</strong>
+                        <p>Technology solutions and services.</p>
+                    </div>
+                </div>
+                <div class="dropdown-box hover-block" onclick="window.open('https://www.webakruti.com/', '_blank');">
+                    <img src="../images/webakrutilogo.svg" alt="Webakruti Icon">
+                    <div>
+                        <strong>Webakruti</strong>
+                        <p>Digital innovation and software development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="no-arrow" onclick="handleWorkWithUsClick()">Work with us</a>
+    </div>
+</nav>
+
+<script>
+// Fix logo path based on current page
+document.addEventListener('DOMContentLoaded',function(){
+    let logo=document.getElementById('navbar-logo');
+    if(logo){
+        logo.src=window.location.pathname.includes('/Services/') || 
+                window.location.pathname.includes('/Expertise/') || 
+                window.location.pathname.includes('/Products/') ? 
+                '../images/logo kutumbinfo13.png' : 'images/logo kutumbinfo13.png';
+    }
+    
+    // Ensure navigation functions are available
+    if (typeof goToAngular !== 'function') {
+        window.goToAngular = function() {
+            console.log("Using fallback goToAngular");
+            const path = window.location.pathname.includes('/Expertise/') || 
+                         window.location.pathname.includes('/Services/') || 
+                         window.location.pathname.includes('/Products/') ? 
+                         '../Expertise/angular.html' : 'Expertise/angular.html';
+            window.location.href = path;
+        };
+    }
+    if (typeof goToReact !== 'function') {
+        window.goToReact = function() {
+            console.log("Using fallback goToReact");
+            const path = window.location.pathname.includes('/Expertise/') || 
+                         window.location.pathname.includes('/Services/') || 
+                         window.location.pathname.includes('/Products/') ? 
+                         '../Expertise/react.html' : 'Expertise/react.html';
+            window.location.href = path;
+        };
+    }
+    if (typeof goToVuejs !== 'function') {
+        window.goToVuejs = function() {
+            console.log("Using fallback goToVuejs");
+            const path = window.location.pathname.includes('/Expertise/') || 
+                         window.location.pathname.includes('/Services/') || 
+                         window.location.pathname.includes('/Products/') ? 
+                         '../Expertise/vuejs.html' : 'Expertise/vuejs.html';
+            window.location.href = path;
+        };
+    }
+    if (typeof goToWordpress !== 'function') {
+        window.goToWordpress = function() {
+            console.log("Using fallback goToWordpress");
+            const path = window.location.pathname.includes('/Expertise/') || 
+                         window.location.pathname.includes('/Services/') || 
+                         window.location.pathname.includes('/Products/') ? 
+                         '../Expertise/wordpress.html' : 'Expertise/wordpress.html';
+            window.location.href = path;
+        };
+    }
+    if (typeof goToFlutter !== 'function') {
+        window.goToFlutter = function() {
+            console.log("Using fallback goToFlutter");
+            const path = window.location.pathname.includes('/Expertise/') || 
+                         window.location.pathname.includes('/Services/') || 
+                         window.location.pathname.includes('/Products/') ? 
+                         '../Expertise/flutter.html' : 'Expertise/flutter.html';
+            window.location.href = path;
+        };
+    }
+    if (typeof goToJava !== 'function') {
+        window.goToJava = function() {
+            console.log("Using fallback goToJava");
+            const path = window.location.pathname.includes('/Expertise/') || 
+                         window.location.pathname.includes('/Services/') || 
+                         window.location.pathname.includes('/Products/') ? 
+                         '../Expertise/java.html' : 'Expertise/java.html';
+            window.location.href = path;
+        };
+    }
+    if (typeof goToNodejs !== 'function') {
+        window.goToNodejs = function() {
+            console.log("Using fallback goToNodejs");
+            const path = window.location.pathname.includes('/Expertise/') || 
+                         window.location.pathname.includes('/Services/') || 
+                         window.location.pathname.includes('/Products/') ? 
+                         '../Expertise/nodejs.html' : 'Expertise/nodejs.html';
+            window.location.href = path;
+        };
+    }
+    if (typeof goToPhp !== 'function') {
+        window.goToPhp = function() {
+            console.log("Using fallback goToPhp");
+            const path = window.location.pathname.includes('/Expertise/') || 
+                         window.location.pathname.includes('/Services/') || 
+                         window.location.pathname.includes('/Products/') ? 
+                         '../Expertise/php.html' : 'Expertise/php.html';
+            window.location.href = path;
+        };
+    }
+});
+</script> 
