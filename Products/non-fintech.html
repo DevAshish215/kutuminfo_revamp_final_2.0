@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Fintech Products - KutumbInfo</title>
+    <link rel="stylesheet" href="../styles.css" id="main-css">
+    <link rel="stylesheet" href="products.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="../images/favicon2.png" type="image/x-icon" id="favicon">
+    <script src="../scripts.js" defer></script>
+    <script src="products.js" defer></script>
+    <script>
+        // Fix paths based on current location
+        document.addEventListener('DOMContentLoaded', function() {
+            // Update CSS and resource paths
+            document.getElementById('main-css').href = getBasePath() + 'styles.css';
+            document.getElementById('favicon').href = getBasePath() + 'images/favicon2.png';
+        });
+    </script>
+</head>
+<body>
+    <!-- Navbar Placeholder -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="breadcrumb">Home > Products > Non-Fintech Solutions</div>
+                <h1>Non-Fintech <span class="text-accent">Solutions</span></h1>
+                <p>Enterprise software solutions designed to optimize business operations and enhance productivity.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Explore Products</a>
+                    <a href="#contact" class="btn btn-outline">Request Demo</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="inner-ring"></div>
+                <div class="outer-ring"></div>
+                <img src="../images/non-fintech-hero.png" alt="Non-Fintech Solutions" class="pulse-animation">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Non-Fintech Solutions</h2>
+                <p>Comprehensive business management solutions to drive growth and efficiency</p>
+            </div>
+
+            <div class="product-tabs">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-tab="rental">Rental Solution (PCT)</button>
+                    <button class="tab-btn" data-tab="school">School Management</button>
+                    <button class="tab-btn" data-tab="borwell">Borwell Management System</button>
+                </div>
+
+                <div class="tabs-content">
+                    <!-- Rental Solution Tab -->
+                    <div class="product-tab active" id="rental">
+                        <div class="product-grid">
+                            <div class="product-info">
+                                <h3>Rental Solution (PCT)</h3>
+                                <p class="product-tagline">Complete Property & Tenant Management System</p>
+                                <p>Our Rental Solution (PCT) is a comprehensive platform designed to streamline all aspects of property management. It provides landlords, property managers, and rental businesses with the tools to efficiently manage properties, tenants, leases, maintenance, and financial operations.</p>
+                                
+                                <div class="features-list">
+                                    <div class="feature">
+                                        <div class="feature-icon">
+                                            <i class="fas fa-file-contract"></i>
+                                        </div>
+                                        <div class="feature-content">
+                                            <h4>Lease Management</h4>
+                                            <p>Digital lease creation, automated renewals, and comprehensive tracking</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon">
+                                            <i class="fas fa-tools"></i>
+                                        </div>
+                                        <div class="feature-content">
+                                            <h4>Maintenance Tracking</h4>
+                                            <p>Request management, work order scheduling, and maintenance history</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon">
+                                            <i class="fas fa-chart-line"></i>
+                                        </div>
+                                        <div class="feature-content">
+                                            <h4>Financial Reporting</h4>
+                                            <p>Rent collection, expense tracking, and financial analytics</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-cta">
+                                    <a href="#contact" class="btn btn-primary">Request Demo</a>
+                                    <a href="#" class="btn btn-outline">Download Brochure</a>
+                                </div>
+                            </div>
+                            <div class="product-showcase">
+                                <img src="../images/rental-dashboard.jpg" alt="Rental Solution Dashboard" class="product-image">
+                                <div class="product-highlights">
+                                    <div class="highlight">
+                                        <span class="highlight-value">75%</span>
+                                        <span class="highlight-label">Reduced Admin Time</span>
+                                    </div>
+                                    <div class="highlight">
+                                        <span class="highlight-value">30%</span>
+                                        <span class="highlight-label">Increased Occupancy</span>
+                                    </div>
+                                    <div class="highlight">
+                                        <span class="highlight-value">90%</span>
+                                        <span class="highlight-label">Customer Satisfaction</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- School Management Tab -->
+                    <div class="product-tab" id="school">
+                        <div class="product-grid">
+                            <div class="product-info">
+                                <h3>School Management System</h3>
+                                <p class="product-tagline">Comprehensive Educational Institution Administration</p>
+                                <p>Our School Management System is an end-to-end solution for educational institutions to efficiently manage administrative tasks, academic processes, and stakeholder communications. It's designed to reduce paperwork, streamline operations, and enhance the educational experience.</p>
+                                
+                                <div class="features-list">
+                                    <div class="feature">
+                                        <div class="feature-icon">
+                                            <i class="fas fa-user-graduate"></i>
+                                        </div>
+                                        <div class="feature-content">
+                                            <h4>Student Management</h4>
+                                            <p>Admissions, attendance tracking, performance monitoring, and records</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon">
+                                            <i class="fas fa-chalkboard-teacher"></i>
+                                        </div>
+                                        <div class="feature-content">
+                                            <h4>Academic Management</h4>
+                                            <p>Curriculum planning, exam scheduling, and grading systems</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon">
+                                            <i class="fas fa-comments"></i>
+                                        </div>
+                                        <div class="feature-content">
+                                            <h4>Communication Portal</h4>
+                                            <p>Parent-teacher interaction, announcements, and event management</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-cta">
+                                    <a href="#contact" class="btn btn-primary">Request Demo</a>
+                                    <a href="#" class="btn btn-outline">Download Brochure</a>
+                                </div>
+                            </div>
+                            <div class="product-showcase">
+                                <img src="../images/school-dashboard.jpg" alt="School Management Dashboard" class="product-image">
+                                <div class="product-highlights">
+                                    <div class="highlight">
+                                        <span class="highlight-value">80%</span>
+                                        <span class="highlight-label">Paperwork Reduction</span>
+                                    </div>
+                                    <div class="highlight">
+                                        <span class="highlight-value">65%</span>
+                                        <span class="highlight-label">Improved Communication</span>
+                                    </div>
+                                    <div class="highlight">
+                                        <span class="highlight-value">40%</span>
+                                        <span class="highlight-label">Time Saved for Staff</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Borwell Management Tab -->
+                    <div class="product-tab" id="borwell">
+                        <div class="product-grid">
+                            <div class="product-info">
+                                <h3>Borwell Management System</h3>
+                                <p class="product-tagline">Enterprise Resource Planning Solution</p>
+                                <p>The Borwell Management System is our enterprise-grade solution designed to optimize business operations, resource allocation, inventory management, and project tracking. This comprehensive system helps organizations streamline processes, reduce costs, and improve decision-making.</p>
+                                
+                                <div class="features-list">
+                                    <div class="feature">
+                                        <div class="feature-icon">
+                                            <i class="fas fa-tasks"></i>
+                                        </div>
+                                        <div class="feature-content">
+                                            <h4>Project Management</h4>
+                                            <p>Task assignment, progress tracking, resource allocation, and reporting</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon">
+                                            <i class="fas fa-warehouse"></i>
+                                        </div>
+                                        <div class="feature-content">
+                                            <h4>Inventory Control</h4>
+                                            <p>Real-time tracking, automated reordering, and supplier management</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon">
+                                            <i class="fas fa-chart-pie"></i>
+                                        </div>
+                                        <div class="feature-content">
+                                            <h4>Business Intelligence</h4>
+                                            <p>Data analytics, custom reporting, and strategic insights</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-cta">
+                                    <a href="#contact" class="btn btn-primary">Request Demo</a>
+                                    <a href="#" class="btn btn-outline">Download Brochure</a>
+                                </div>
+                            </div>
+                            <div class="product-showcase">
+                                <img src="../images/borwell-dashboard.jpg" alt="Borwell Management Dashboard" class="product-image">
+                                <div class="product-highlights">
+                                    <div class="highlight">
+                                        <span class="highlight-value">30%</span>
+                                        <span class="highlight-label">Cost Reduction</span>
+                                    </div>
+                                    <div class="highlight">
+                                        <span class="highlight-value">45%</span>
+                                        <span class="highlight-label">Productivity Increase</span>
+                                    </div>
+                                    <div class="highlight">
+                                        <span class="highlight-value">55%</span>
+                                        <span class="highlight-label">Faster Decision Making</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="case-studies-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Success Stories</h2>
+                <p>How our non-fintech solutions transform businesses across industries</p>
+            </div>
+
+            <div class="case-studies-grid">
+                <div class="case-study">
+                    <div class="case-study-image">
+                        <img src="../images/property-case-study.jpg" alt="Property Management Case Study">
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Metropolitan Properties</h3>
+                        <p class="case-study-industry">Property Management</p>
+                        <p>"The Rental Solution has revolutionized how we manage our 200+ properties. We've seen a 75% reduction in administrative tasks and a 30% increase in occupancy rates."</p>
+                        <div class="case-study-results">
+                            <div class="result">
+                                <span class="result-value">$50K</span>
+                                <span class="result-label">Annual Savings</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-value">95%</span>
+                                <span class="result-label">Tenant Satisfaction</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline">Read Full Case Study</a>
+                    </div>
+                </div>
+
+                <div class="case-study">
+                    <div class="case-study-image">
+                        <img src="../images/school-case-study.jpg" alt="Education Case Study">
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Global Academy Network</h3>
+                        <p class="case-study-industry">Education</p>
+                        <p>"Implementing the School Management System across our 5 campuses has transformed our operations. The communication portal has significantly improved parent engagement."</p>
+                        <div class="case-study-results">
+                            <div class="result">
+                                <span class="result-value">40%</span>
+                                <span class="result-label">Staff Time Saved</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-value">85%</span>
+                                <span class="result-label">Parent Engagement</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline">Read Full Case Study</a>
+                    </div>
+                </div>
+
+                <div class="case-study">
+                    <div class="case-study-image">
+                        <img src="../images/enterprise-case-study.jpg" alt="Enterprise Case Study">
+                    </div>
+                    <div class="case-study-content">
+                        <h3>Nexus Manufacturing</h3>
+                        <p class="case-study-industry">Manufacturing</p>
+                        <p>"The Borwell Management System has given us complete visibility across operations. Our inventory costs have decreased by 30% and productivity has improved significantly."</p>
+                        <div class="case-study-results">
+                            <div class="result">
+                                <span class="result-value">45%</span>
+                                <span class="result-label">Process Efficiency</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-value">$120K</span>
+                                <span class="result-label">Annual Savings</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline">Read Full Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Request Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Request a Demo</h2>
+                <p>Experience how our solutions can transform your business operations</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <form id="demo-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="product">Product Interest</label>
+                            <select id="product" name="product" required>
+                                <option value="" disabled selected>Select a product</option>
+                                <option value="rental">Rental Solution (PCT)</option>
+                                <option value="school">School Management System</option>
+                                <option value="borwell">Borwell Management System</option>
+                                <option value="multiple">Multiple Products</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Request Demo</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Have Questions?</h3>
+                    <p>Our product specialists are ready to assist you with any inquiries about our non-fintech solutions.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>products@kutumbinfo.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-calendar-check"></i>
+                            <div>
+                                <h4>Schedule a Call</h4>
+                                <p>Book a 30-minute consultation</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="brochure-download">
+                        <h4>Download Product Brochures</h4>
+                        <div class="brochure-buttons">
+                            <a href="#" class="btn btn-outline btn-sm">Rental Solution</a>
+                            <a href="#" class="btn btn-outline btn-sm">School Management</a>
+                            <a href="#" class="btn btn-outline btn-sm">Borwell System</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../navigation.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load navbar and footer
+            fetch(getBasePath() + 'navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-placeholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading navbar:', error));
+
+            fetch(getBasePath() + 'footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-placeholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading footer:', error));
+            
+            // Tab functionality
+            setTimeout(function() {
+                const tabButtons = document.querySelectorAll('.tab-btn');
+                const productTabs = document.querySelectorAll('.product-tab');
+                
+                tabButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        // Remove active class from all buttons and tabs
+                        tabButtons.forEach(btn => btn.classList.remove('active'));
+                        productTabs.forEach(tab => tab.classList.remove('active'));
+                        
+                        // Add active class to clicked button
+                        this.classList.add('active');
+                        
+                        // Show the corresponding tab
+                        const tabId = this.getAttribute('data-tab');
+                        document.getElementById(tabId).classList.add('active');
+                    });
+                });
+                
+                // Form submission
+                const demoForm = document.getElementById('demo-form');
+                if (demoForm) {
+                    demoForm.addEventListener('submit', function(e) {
+                        e.preventDefault();
+                        alert('Thank you for your interest! Our team will contact you shortly to schedule your personalized demo.');
+                        demoForm.reset();
+                    });
+                }
+            }, 500);
+        });
+    </script>
+</body>
+</html> 
