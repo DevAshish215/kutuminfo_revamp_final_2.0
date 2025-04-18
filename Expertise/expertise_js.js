@@ -64,15 +64,27 @@ function loadComponents() {
         .then(response => response.text())
         .then(data => {
             console.log("Footer loaded successfully");
+            // Fix image paths in the footer HTML before inserting
+            data = data.replace(/src="images\//g, 'src="../images/');
             document.getElementById('footer-placeholder').innerHTML = data;
             
-            // Fix footer logo path
+            // Fix all social media icons and footer logo
             setTimeout(function() {
+                // Fix footer logo path
                 const footerLogo = document.querySelector('.footer-logo img');
-                if (footerLogo) {
+                if (footerLogo && !footerLogo.src.includes('../images/')) {
                     footerLogo.src = "../images/logo kutumbinfo13.png";
                     console.log("Footer logo path updated");
                 }
+                
+                // Fix social media icon paths
+                const socialIcons = document.querySelectorAll('.social-icons img');
+                socialIcons.forEach(icon => {
+                    const srcParts = icon.src.split('/');
+                    const filename = srcParts[srcParts.length - 1];
+                    icon.src = `../images/social_icon/${filename}`;
+                    console.log("Social icon updated:", filename);
+                });
             }, 300);
         })
         .catch(error => console.error('Error loading footer:', error));

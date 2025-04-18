@@ -8,6 +8,61 @@
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* ====== TYPOGRAPHY ====== */
+/* Standardized typography styles for consistent heading and paragraph appearance */
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #192939;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 1.2rem;
+    color: #192939;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: #192939;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
 /* Add padding to main-container to offset the fixed navbar */
 .main-container {
     padding-top: 80px;
@@ -111,13 +166,6 @@
     color: #6eaf2a;
 }
 
-.hero-content p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.9);
-    margin-bottom: 40px;
-}
-
 .hero-image {
     display: flex;
     justify-content: center;
@@ -170,10 +218,6 @@
 }
 
 .section-title h2 {
-    font-size: 2.5rem;
-    color: #192939;
-    margin-bottom: 15px;
-    font-weight: 600;
     position: relative;
     display: inline-block;
     padding-bottom: 15px;
@@ -192,8 +236,6 @@
 }
 
 .section-title p {
-    font-size: 1.2rem;
-    color: #555;
     max-width: 900px;
     margin: 0 auto 15px;
 }
@@ -215,13 +257,6 @@
 .overview-content {
     line-height: 1.8;
     margin-top: 10px;
-}
-
-.overview-content p {
-    margin-bottom: 20px;
-    color: #4A5568;
-    font-size: 1.1rem;
-    text-align: justify;
 }
 
 .overview-image img {
@@ -335,12 +370,6 @@
     font-weight: 500;
 }
 
-.service-content p {
-    color: #555;
-    line-height: 1.6;
-    text-align: justify;
-}
-
 /* Process Section */
 .process-section {
     padding: 60px 0;
@@ -390,12 +419,6 @@
     margin-bottom: 10px;
     font-size: 1.3rem;
     font-weight: 500;
-}
-
-.step-content p {
-    color: #555;
-    margin-bottom: 0;
-    line-height: 1.6;
 }
 
 /* Benefits Section */
@@ -521,12 +544,7 @@
     font-size: 2.5rem;
     margin-bottom: 20px;
     font-weight: 500;
-}
-
-.cta-content p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    color: rgba(255, 255, 255, 0.9);
+    color: white;
 }
 
 .cta-button {
