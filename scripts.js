@@ -302,11 +302,13 @@ function loadComponents() {
             initializeNavbarToggle();
             initializeDropdowns();
         });
+        
+    const navbarRootPromise = fetchComponent(getBasePath() + "navbar_root.html", "navbar_root-placeholder");
 
     const footerPromise = fetchComponent(getBasePath() + "footer.html", "footer-placeholder");
     
     // Return promise that resolves when both are done
-    return Promise.all([navbarPromise, footerPromise]);
+    return Promise.all([navbarPromise, navbarRootPromise, footerPromise]);
 }
 
 function fetchComponent(url, targetId) {
@@ -321,8 +323,10 @@ function fetchComponent(url, targetId) {
             return response.text();
         })
         .then(data => {
-            // Fix paths for images in Services directory
-            if (window.location.pathname.includes('/Services/') && targetId === 'footer-placeholder') {
+            // Fix paths for images in Services and Expertise directories
+            if ((window.location.pathname.includes('/Services/') || 
+                 window.location.pathname.includes('/Expertise/')) && 
+                targetId === 'footer-placeholder') {
                 // Add parent directory prefix to image paths in footer
                 data = data.replace(/src="images\//g, 'src="../images/');
             }

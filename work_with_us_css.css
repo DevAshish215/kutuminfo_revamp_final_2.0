@@ -9,6 +9,73 @@ body {
     width: 100%;
 }
 
+/* ====== TYPOGRAPHY ====== */
+/* Standardized typography styles for consistent heading and paragraph appearance */
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #192939;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 1.2rem;
+    color: #192939;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: #192939;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    p {
+        font-size: 0.95rem;
+    }
+}
+
 #navbar-placeholder {
     position: fixed;
     top: 0;
@@ -70,10 +137,6 @@ section {
 }
 
 .section-header h2 {
-    font-size: 2.5rem;
-    color: #192939;
-    margin-bottom: 20px;
-    font-weight: 500;
     position: relative;
     padding-bottom: 15px;
 }
@@ -90,8 +153,6 @@ section {
 }
 
 .section-header p {
-    font-size: 1.2rem;
-    color: #666;
     max-width: 700px;
     margin: 0 auto;
 }
@@ -170,7 +231,6 @@ section {
     font-size: 1.25rem;
     margin-bottom: 40px;
     color: #cdd7e0;
-    line-height: 1.6;
 }
 
 .cta-button {

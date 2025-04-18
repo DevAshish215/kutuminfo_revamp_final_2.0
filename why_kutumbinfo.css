@@ -9,6 +9,74 @@ body {
     width: 100%;
 }
 
+/* ====== TYPOGRAPHY ====== */
+/* Standardized typography styles for consistent heading and paragraph appearance */
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #192939;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 1.2rem;
+    color: #192939;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: #192939;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #666;
+    text-align: justify;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    p {
+        font-size: 0.95rem;
+    }
+}
+
 #navbar-placeholder {
     position: fixed;
     top: 0;
@@ -61,10 +129,6 @@ section {
 }
 
 .section-header h2 {
-    font-size: 2.5rem;
-    color: #192939;
-    margin-bottom: 20px;
-    font-weight: 500;
     position: relative;
     padding-bottom: 15px;
 }
@@ -81,8 +145,6 @@ section {
 }
 
 .section-header p {
-    font-size: 1.2rem;
-    color: #666;
     max-width: 700px;
     margin: 0 auto;
 }
@@ -173,10 +235,8 @@ section {
 }
 
 .why-hero-content h1 {
-    font-size: 3.2rem;
-    line-height: 1.2;
     margin-bottom: 25px;
-    font-weight: 500;
+    color: #ffffff;
 }
 
 .why-hero-content h1 .brand-name {
@@ -184,10 +244,8 @@ section {
 }
 
 .why-hero-content p {
-    font-size: 1rem;
     margin-bottom: 40px;
     color: rgba(255, 255, 255, 0.9);
-    text-align: justify;
 }
 
 .why-hero-image {
@@ -434,12 +492,9 @@ section {
 }
 
 .strength-card h3 {
-    color: #192939;
     margin-bottom: 12px;
-    font-size: 1.5rem;
-    font-weight: 500;
-    position: relative;
     padding-bottom: 10px;
+    position: relative;
 }
 
 .strength-card h3::after {
@@ -547,8 +602,6 @@ section {
 }
 
 .different-content h2 {
-    color: #192939;
-    font-size: 2.2rem;
     margin-bottom: 20px;
     position: relative;
     padding-bottom: 15px;
@@ -569,9 +622,7 @@ section {
 }
 
 .different-content p {
-    font-size: 1rem;
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 .highlight-box {
@@ -583,9 +634,7 @@ section {
 }
 
 .highlight-box h3 {
-    color: #192939;
     margin-bottom: 10px;
-    font-size: 1.3rem;
 }
 
 .different-image {
@@ -653,16 +702,11 @@ section {
 }
 
 .tech-content h2 {
-    font-size: 2.5rem;
-    color: #192939;
     margin-bottom: 25px;
-    font-weight: 500;
 }
 
 .tech-content p {
-    font-size: 1rem;
     margin-bottom: 40px;
-    text-align: justify;
 }
 
 .tech-list {
@@ -767,10 +811,7 @@ section {
 }
 
 .value-card h3 {
-    color: #192939;
     margin-bottom: 15px;
-    font-size: 1.5rem;
-    font-weight: 500;
 }
 
 .value-card p {
@@ -849,16 +890,13 @@ section {
 }
 
 .cta-container h2 {
-    font-size: 2.8rem;
     margin-bottom: 25px;
-    font-weight: 500;
+    color: #ffffff;
 }
 
 .cta-container p {
-    font-size: 1rem;
     margin-bottom: 40px;
     color: rgba(255, 255, 255, 0.9);
-    text-align: justify;
 }
 
 .cta-buttons {
