@@ -5,8 +5,8 @@
 
 /* ====== VARIABLES ====== */
 :root {
-    --primary-color: #003366;
-    --accent-color: #6eaf2a;
+    --primary-color: #192939;
+    --secondary-color: #6eaf2a;
     --text-color: #333;
     --text-light: #666;
     --bg-light: #f5f7fa;
@@ -26,6 +26,40 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     overflow-x: hidden;
+}
+
+/* ====== TYPOGRAPHY ====== */
+/* Standardized typography styles for consistent heading and paragraph appearance */
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 1.2rem;
+    color: var(--primary-color);
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: var(--text-light);
 }
 
 #navbar-placeholder {
@@ -54,44 +88,6 @@ section {
     padding: 80px 20px;
     box-sizing: border-box;
     overflow: hidden;
-}
-
-/* ====== TYPOGRAPHY ====== */
-.section-header {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 60px;
-}
-
-.section-header h2 {
-    font-size: 2.5rem;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    font-weight: 500;
-    position: relative;
-    padding-bottom: 15px;
-}
-
-.section-header h2::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 3px;
-    background-color: var(--accent-color);
-}
-
-.section-header p {
-    font-size: 1.2rem;
-    color: var(--text-light);
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.text-accent {
-    color: var(--accent-color);
 }
 
 /* ====== HERO SECTION ====== */
@@ -133,6 +129,7 @@ section {
     line-height: 1.2;
     margin-bottom: 25px;
     font-weight: 500;
+    color: white;
 }
 
 .fintech-hero-content p {
@@ -165,6 +162,38 @@ section {
     border: 2px solid rgba(110, 175, 42, 0.3);
     border-radius: 50%;
     animation: rotate 20s linear infinite;
+}
+
+/* ====== SECTION HEADER STYLING ====== */
+.section-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px;
+}
+
+.section-header h2 {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-header h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: var(--secondary-color);
+}
+
+.section-header p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.text-accent {
+    color: var(--secondary-color);
 }
 
 /* ====== SERVICES SECTION ====== */
@@ -206,6 +235,9 @@ section {
     max-width: 40%;
     overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .solution-image::after {
@@ -252,14 +284,14 @@ section {
     top: 0;
     height: 100%;
     width: 4px;
-    background: linear-gradient(to bottom, var(--accent-color), rgba(0, 51, 102, 0.7));
+    background: linear-gradient(to bottom, var(--secondary-color), rgba(0, 51, 102, 0.7));
     border-radius: 4px;
 }
 
 .solution-icon {
     width: 45px;
     height: 45px;
-    background: var(--gradient-accent);
+    background: #2faa00;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -286,14 +318,14 @@ section {
     left: 0;
     width: 60px;
     height: 2px;
-    background-color: var(--accent-color);
+    background-color: var(--secondary-color);
 }
 
-.solution-description {
-    font-size: 0.9rem;
+.solution-description {    
     color: var(--text-light);
     margin-bottom: 12px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .solution-features {
@@ -312,7 +344,7 @@ section {
 }
 
 .feature-item i {
-    color: var(--accent-color);
+    color: var(--secondary-color);
     font-size: 14px;
     background-color: rgba(110, 175, 42, 0.1);
     width: 24px;
@@ -497,12 +529,20 @@ section {
         min-height: 400px;
     }
     
-    .section-header h2 {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
         font-size: 2rem;
     }
     
-    .section-header p {
-        font-size: 1.1rem;
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    p {
+        font-size: 0.95rem;
     }
 }
 
@@ -533,5 +573,21 @@ section {
         width: 45px;
         height: 45px;
         font-size: 18px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    p {
+        font-size: 0.95rem;
     }
 } 
