@@ -16,7 +16,30 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('../footer.html')
         .then(response => response.text())
         .then(data => {
+            // Fix image paths in footer for services pages
+            data = data.replace(/src="images\//g, 'src="../images/');
+            
             document.getElementById('footer-placeholder').innerHTML = data;
+            
+            // Further fix social icon paths specifically
+            setTimeout(function() {
+                // Fix footer logo
+                const footerLogo = document.querySelector('.footer-logo img');
+                if (footerLogo && !footerLogo.src.includes('../images/')) {
+                    footerLogo.src = '../images/logo kutumbinfo13.png';
+                }
+                
+                // Fix social media icons
+                const socialIcons = document.querySelectorAll('.social-icons img');
+                socialIcons.forEach(icon => {
+                    // Extract the filename
+                    const srcParts = icon.src.split('/');
+                    const filename = srcParts[srcParts.length - 1];
+                    
+                    // Update with correct path
+                    icon.src = `../images/social_icon/${filename}`;
+                });
+            }, 300);
         });
         
     // Initialize scroll animations after a short delay to ensure all elements are loaded

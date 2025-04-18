@@ -8,6 +8,61 @@
  * - ui_ux_design.css
  */
 
+/* ====== TYPOGRAPHY ====== */
+/* Standardized typography styles for consistent heading and paragraph appearance */
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #192939;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 1.2rem;
+    color: #192939;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: #192939;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
 /* ====== GENERAL STYLING ====== */
 body {
     margin: 0;
@@ -66,7 +121,7 @@ section {
 
 .section-header h2 {
     font-size: 2.5rem;
-    color: #003366;
+    color: #192939;
     margin-bottom: 20px;
     font-weight: 500;
     position: relative;
@@ -85,8 +140,6 @@ section {
 }
 
 .section-header p {
-    font-size: 1.2rem;
-    color: #666;
     max-width: 700px;
     margin: 0 auto;
 }
@@ -134,16 +187,26 @@ section {
     line-height: 1.2;
     margin-bottom: 25px;
     font-weight: 500;
+    color: white;
 }
 
-.web-hero-content p {
-    font-size: 1.25rem;
-    margin-bottom: 40px;
-    color: rgba(255, 255, 255, 0.9);
-    text-indent: 0;
-    text-align: left;
-    text-justify: inter-word;
+.web-hero-content h1 .text-accent {
+    color: #6eaf2a;
 }
+
+/* Add style for hero section paragraph */
+.web-hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+/* Remove custom styling from web-hero-content p */
+/* .web-hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.8);
+} */
 
 .web-hero-image {
     flex: 1;
@@ -245,39 +308,13 @@ section {
 .overview-content {
     max-width: 1200px;
     margin: 0 auto;
-    text-align: left;
-}
-
-.overview-content p {
-    font-size: 1.1rem;
-    color: #666;
-    margin-bottom: 20px;
-    line-height: 1.8;
-    text-indent: 0;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 .overview-highlight {
-    background-color: white;
-    border-radius: 15px;
+    background-color: #f8f9fa;
     padding: 30px;
+    border-left: 4px solid #6eaf2a;
     margin-top: 40px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
-    border-left: 6px solid #6eaf2a;
-}
-
-.overview-highlight h3 {
-    color: #003366;
-    margin-bottom: 15px;
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
-.overview-highlight p {
-    margin-bottom: 0;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 /* ====== SERVICES SECTION ====== */
@@ -308,7 +345,7 @@ section {
     transition: all 0.4s ease;
     position: relative;
     overflow: hidden;
-    height: 280px;
+    height: 220px;
 }
 
 .service-card::before {
@@ -318,7 +355,7 @@ section {
     height: 5px;
     bottom: 0;
     left: 0;
-    background: linear-gradient(90deg, #6eaf2a, #003366);
+    background: linear-gradient(90deg, #6eaf2a, #192939);
     transform: scaleX(0);
     transform-origin: 0 0;
     transition: transform 0.4s ease;
@@ -364,39 +401,6 @@ section {
     flex: 1;
 }
 
-.service-content h3 {
-    font-size: 1.4rem;
-    color: #003366;
-    margin-bottom: 15px;
-    position: relative;
-    padding-bottom: 15px;
-    font-weight: 500;
-}
-
-.service-content h3::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 40px;
-    height: 2px;
-    background-color: #6eaf2a;
-    transition: width 0.3s ease;
-}
-
-.service-card:hover .service-content h3::after {
-    width: 60px;
-}
-
-.service-content p {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 0;
-    line-height: 1.7;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
 /* ====== TECH SHOWCASE SECTION ====== */
 .tech-showcase-section {
     background-color: #f8f9fa;
@@ -415,23 +419,7 @@ section {
 
 .tech-content {
     flex: 1;
-    min-width: 300px;
-}
-
-.tech-content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #003366;
-    font-weight: 500;
-}
-
-.tech-content p {
-    font-size: 1.1rem;
-    color: #666;
-    margin-bottom: 40px;
-    line-height: 1.8;
-    text-align: justify;
-    text-justify: inter-word;
+    padding-right: 50px;
 }
 
 .tech-list {
@@ -461,7 +449,7 @@ section {
 
 .tech-list li span {
     font-size: 1.1rem;
-    color: #003366;
+    color: #192939;
 }
 
 .tech-image {
@@ -546,7 +534,7 @@ section {
 
 .approach-content h3 {
     font-size: 1.4rem;
-    color: #003366;
+    color: #192939;
     margin-bottom: 15px;
     position: relative;
     padding-bottom: 15px;
@@ -569,14 +557,11 @@ section {
     width: 60px;
 }
 
-.approach-content p {
-    font-size: 1rem;
+/* .approach-content p {
     color: #666;
-    margin-bottom: 0;
     line-height: 1.7;
-    text-align: justify;
-    text-justify: inter-word;
-}
+    margin-bottom: 0;
+} */
 
 /* ====== FEATURES SECTION ====== */
 .features-section {
@@ -632,7 +617,7 @@ section {
 
 .feature-card h3 {
     font-size: 1.4rem;
-    color: #003366;
+    color: #192939;
     margin-bottom: 15px;
     position: relative;
     padding-bottom: 15px;
@@ -655,14 +640,12 @@ section {
     width: 60px;
 }
 
-.feature-card p {
-    font-size: 1rem;
+/* .feature-card p {
     color: #666;
-    margin-bottom: 0;
     line-height: 1.7;
-    text-align: justify;
-    text-justify: inter-word;
-}
+    margin-bottom: 0;
+    text-align: center;
+} */
 
 /* ====== PROJECTS SECTION ====== */
 .projects-section {
@@ -752,15 +735,15 @@ section {
     font-size: 2.2rem;
     margin-bottom: 25px;
     font-weight: 500;
+    color: white;
 }
 
-.cta-container p {
-    font-size: 1.1rem;
-    margin-bottom: 40px;
-    color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    text-justify: inter-word;
-}
+/* .cta-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+} */
 
 .cta-buttons {
     display: flex;
@@ -977,11 +960,11 @@ section {
     color: #2c3e50;
 }
 
-.benefit-item p {
-    font-size: 14px;
-    color: #7f8c8d;
-    line-height: 1.5;
-}
+/* .benefit-item p {
+    color: #666;
+    margin-bottom: 0;
+    text-align: center;
+} */
 
 @media (max-width: 992px) {
     .benefits-container {
